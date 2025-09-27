@@ -1,3 +1,9 @@
+---
+title: "Publications"
+layout: page
+permalink: /publications/
+---
+
 **(\* indicates equal contribution)**  
 
 ---
