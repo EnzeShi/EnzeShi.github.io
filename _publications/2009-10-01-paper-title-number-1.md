@@ -1,10 +1,6 @@
 ---
 title: "Publications"
 permalink: /publications/
-date: ""
-publishDate: ""
-lastmod: ""
-showDate: false
 ---
 
 **(\* indicates equal contribution)**  
