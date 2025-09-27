@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Enze Shi / Personal Website"
+title                    : "Enze Shi"
 title_separator          : "-"
 name                     : &name "Enze Shi"
 description              : &description "Ph.D. Student in Statistical Machine Learning at University of Alberta"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -23,9 +23,9 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpeg"
   name             : "Enze Shi"
-  pronouns         : "h"# example: "she/her"  
+  pronouns         : #"h"# example: "she/her"  
   bio              : "Ph.D. Student in Statistical Machine Learning"
   location         : #"Earth"
   employer         : "University of Alberta"
