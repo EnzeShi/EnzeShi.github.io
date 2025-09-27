@@ -1,6 +1,7 @@
 ---
 title: "Publications"
 permalink: /publications/
+date: ""
 ---
 
 **(\* indicates equal contribution)**  
