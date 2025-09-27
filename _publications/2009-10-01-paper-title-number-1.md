@@ -1,6 +1,10 @@
 ---
 title: "Publications"
 permalink: /publications/
+date: ""
+publishDate: ""
+lastmod: ""
+showDate: false
 ---
 
 **(\* indicates equal contribution)**  
@@ -9,41 +13,41 @@ permalink: /publications/
 
 ### ✅ Published & Accepted  
 
-**[1]** Jinhan Xie\*, **Enze Shi\***, Peijun Sang, Zuofeng Shang, Bei Jiang, Linglong Kong. (2025+)  
+Jinhan Xie\*, **Enze Shi\***, Peijun Sang, Zuofeng Shang, Bei Jiang, Linglong Kong. (2025+)  
 *Scalable inference in functional linear regression with streaming data.*  
-*Annals of Statistics*. Accepted.  
+**Annals of Statistics**. Accepted.
 
-**[2]** **Enze Shi**, Pankaj Bhagwat, Zhixian Yang, Linglong Kong, Bei Jiang. (2025)  
+**Enze Shi**, Pankaj Bhagwat, Zhixian Yang, Linglong Kong, Bei Jiang. (2025)  
 *Understanding Fairness and Prediction Error through Subspace Decomposition and Influence Analysis.*  
-*NeurIPS 2025*. Accepted.  
+**NeurIPS 2025**. Accepted.
 
-**[3]** Ke Sun, Yingnan Zhao, **Enze Shi**, Yafei Wang, Xiaodong Yan, Bei Jiang, Linglong Kong. (2025)  
+Ke Sun, Yingnan Zhao, **Enze Shi**, Yafei Wang, Xiaodong Yan, Bei Jiang, Linglong Kong. (2025)  
 *Intrinsic Benefits of Categorical Distributional Loss: Uncertainty-aware Regularized Exploration in Reinforcement Learning.*  
-*NeurIPS 2025*. Accepted.  
+**NeurIPS 2025**. Accepted.
 
-**[4]** **Enze Shi**, Yi Liu, Ke Sun, Lingzhu Li, Linglong Kong. (2025)  
+**Enze Shi**, Yi Liu, Ke Sun, Lingzhu Li, Linglong Kong. (2025)  
 *An adaptive model checking test for the functional linear model.*  
-*Bernoulli* 31 (2), 894–921, May 2025.  
+**Bernoulli** 31 (2), 894–921, May 2025.
 
-**[5]** **Enze Shi**, Lei Ding, Linglong Kong, Bei Jiang. (2024)  
+**Enze Shi**, Lei Ding, Linglong Kong, Bei Jiang. (2024)  
 *Debiasing with Sufficient Projection: A General Theoretical Framework for Vector Representations.*  
-*Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers).*  
+**NAACL 2024 (HLT, Volume 1: Long Papers)**.
 
-**[6]** **Enze Shi**, Jinhan Xie, Shenggang Hu, Ke Sun, Lingzhu Li, Hongsheng Dai, Bei Jiang, Linglong Kong. (2024)  
+**Enze Shi**, Jinhan Xie, Shenggang Hu, Ke Sun, Lingzhu Li, Hongsheng Dai, Bei Jiang, Linglong Kong. (2024)  
 *Tracking Full Posterior in Online Bayesian Classification Learning: A Particle Filter Approach.*  
-*Journal of Nonparametric Statistics*, 1–19.  
+**Journal of Nonparametric Statistics**, 1–19.
 
-**[7]** Lei Ding, Yang Hu, Nicole Denier, **Enze Shi**, Junxi Zhang, Qirui Hu, Karen D. Hughes, Linglong Kong, Bei Jiang. (2024)  
+Lei Ding, Yang Hu, Nicole Denier, **Enze Shi**, Junxi Zhang, Qirui Hu, Karen D. Hughes, Linglong Kong, Bei Jiang. (2024)  
 *Probing Social Bias in Labor Market Text Generation by ChatGPT: A Masked Language Model Approach.*  
-*NeurIPS 2024*.  
+**NeurIPS 2024**.
 
-**[8]** Yang Hu, Lei Ding, Nicole Denier, Monideepa Tarafdar, Alla Konnikov, Karen Hughes, Shenggang Hu, Jabir Alshehabi Al-Ani, **Enze Shi**, Irina Rets, Hongsheng Dai, Linglong Kong, Bran Knowles, Dengdeng Yu, Bei Jiang, Malik Imran Ahmaed. (2024)  
+Yang Hu, Lei Ding, Nicole Denier, Monideepa Tarafdar, Alla Konnikov, Karen Hughes, Shenggang Hu, Jabir Alshehabi Al-Ani, **Enze Shi**, Irina Rets, Hongsheng Dai, Linglong Kong, Bran Knowles, Dengdeng Yu, Bei Jiang, Malik Imran Ahmaed. (2024)  
 *Language in job advertisements and the reproduction of labor force gender and racial segregation.*  
-*PNAS Nexus*, pgae 526.  
+**PNAS Nexus**, pgae 526.
 
-**[9]** **Enze Shi**, Chuanju Xu. (2021)  
+**Enze Shi**, Chuanju Xu. (2021)  
 *A comparative investigation of neural networks in solving differential equations.*  
-*Journal of Algorithms & Computational Technology*, 15, 1748302621998605.  
+**Journal of Algorithms & Computational Technology**, 15, 1748302621998605.
 
 ---
 
