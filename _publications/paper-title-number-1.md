@@ -49,18 +49,18 @@ Yang Hu, Lei Ding, Nicole Denier, Monideepa Tarafdar, Alla Konnikov, Karen Hughe
 
 ### 📝 In Submission  
 
-**[10]** Jinhan Xie\*, **Enze Shi\***, Bei Jiang, Linglong Kong, Xuming He.  
+Jinhan Xie\*, **Enze Shi\***, Bei Jiang, Linglong Kong, Xuming He.  
 *Online differentially private inference in stochastic gradient descent.*  
 Under Review.  
 
-**[11]** **Enze Shi**, Jinhan Xie, Bei Jiang, Linglong Kong, Xuming He.  
+**Enze Shi**, Jinhan Xie, Bei Jiang, Linglong Kong, Xuming He.  
 *Non-Asymptotic Analysis of Online Local Private Learning with SGD.*  
 Under Review.  
 
-**[12]** **Enze Shi**, Linglong Kong, Bei Jiang.  
+**Enze Shi**, Linglong Kong, Bei Jiang.  
 *Deep Fair Learning: A Unified Framework for Fine-tuning Representations with Sufficient Networks.*  
 Under Review.  
 
-**[13]** Pankaj Bhagwat, **Enze Shi**, Zhixian Yang, Bei Jiang, Linglong Kong.  
+Pankaj Bhagwat, **Enze Shi**, Zhixian Yang, Bei Jiang, Linglong Kong.  
 *Decoupling Fairness: A Flexible Framework for Addressing Direct and Indirect Bias with Improved Statistical Efficiency in Regression.*  
 Under Review.  
