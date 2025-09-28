@@ -5,8 +5,6 @@ layout: archive
 author_profile: true
 ---
 
-## 🏆 Awards
-
 ---
 
 - **Alberta Graduate Excellence Scholarship** — University of Alberta, Fall 2024  
