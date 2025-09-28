@@ -1,6 +1,7 @@
 ---
 title: "Awards"
 permalink: /awards/
+layout: archive
 ---
 
 ## 🏆 Awards
