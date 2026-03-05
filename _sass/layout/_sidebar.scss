@@ -262,3 +262,16 @@
     }
   }
 }
+
+.visitor-map{
+  margin-top: 12px;
+  max-width: 180px;
+  overflow: hidden;
+}
+.visitor-map iframe,
+.visitor-map canvas,
+.visitor-map img{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
