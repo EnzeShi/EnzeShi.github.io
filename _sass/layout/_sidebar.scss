@@ -263,15 +263,20 @@
   }
 }
 
-.visitor-map{
-  margin-top: 12px;
-  max-width: 180px;
-  overflow: hidden;
-}
-.visitor-map iframe,
-.visitor-map canvas,
-.visitor-map img{
+.visitor-map {
+  width: 220px;
   max-width: 100%;
-  height: auto;
-  display: block;
+  margin-top: 12px;
+}
+
+// Override the widget's fixed inline dimensions to fit the sidebar.
+.visitor-map .mapmyvisitors-map-control,
+.visitor-map .mapmyvisitors-map {
+  width: 100% !important;
+}
+
+.visitor-map .mapmyvisitors-map {
+  height: auto !important;
+  aspect-ratio: 220 / 108;
+  background-size: 100% 100%;
 }
