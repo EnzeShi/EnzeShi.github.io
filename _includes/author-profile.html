@@ -169,12 +169,28 @@
   </div>
   <div class="visitor-map" id="visitor-map" style="scroll-margin-top: 80px;">
     {% if page.permalink == '/' %}
-    <p id="visitor-monthly-count" style="margin: 0 0 6px; font-size: 12px;" aria-live="polite">Past 30 days: loading…</p>
+    <div id="visitor-monthly-count" hidden aria-live="polite">Past 30 days: loading…</div>
     <script>
       (function () {
         var label = document.getElementById('visitor-monthly-count');
         var request = document.createElement('script');
         var timeout;
+        function placeMonthlyCount() {
+          var total = document.querySelector('#mapmyvisitors-widget .mapmyvisitors-visitors');
+          if (!total) return false;
+          label.className = 'mpmvs visitor-monthly-label';
+          label.style.cssText = 'color: white; font: inherit; font-size: 12px; line-height: 16px; text-align: center;';
+          total.insertAdjacentElement('afterend', label);
+          label.hidden = false;
+          return true;
+        }
+        if (!placeMonthlyCount()) {
+          var placement = new MutationObserver(function () {
+            if (placeMonthlyCount()) placement.disconnect();
+          });
+          placement.observe(document.getElementById('visitor-map'), {childList: true, subtree: true});
+          setTimeout(function () { placement.disconnect(); }, 15000);
+        }
         function finish() {
           clearTimeout(timeout);
           request.remove();
