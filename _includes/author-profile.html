@@ -168,6 +168,32 @@
     </ul>
   </div>
   <div class="visitor-map" id="visitor-map" style="scroll-margin-top: 80px;">
+    {% if page.permalink == '/' %}
+    <p id="visitor-monthly-count" style="margin: 0 0 6px; font-size: 12px;" aria-live="polite">Past 30 days: loading…</p>
+    <script>
+      (function () {
+        var label = document.getElementById('visitor-monthly-count');
+        var request = document.createElement('script');
+        var timeout;
+        function finish() {
+          clearTimeout(timeout);
+          request.remove();
+        }
+        window.monthlyVisitorSummary = function (response) {
+          var match = typeof response === 'string' && response.match(/\.find\(['"]\.mapmyvisitors-visitors['"]\)\.html\(['"]([\d,]+) Pageviews['"]\)/);
+          label.textContent = match ? 'Past 30 days: ' + match[1] + ' pageviews' : 'Past 30 days: temporarily unavailable';
+          finish();
+        };
+        request.onerror = function () {
+          label.textContent = 'Past 30 days: temporarily unavailable';
+          finish();
+        };
+        timeout = setTimeout(request.onerror, 15000);
+        request.src = 'https://mapmyvisitors.com/widget_call_home.js?cl=ffffff&w=220&t=m&d=3D3-AIxdaGGcKvDZqQm2KXjUCSd6FYCDe1IG3uQvtyE&callback=monthlyVisitorSummary';
+        document.head.appendChild(request);
+      })();
+    </script>
+    {% endif %}
     <script defer type="text/javascript" id="mapmyvisitors"
       src="https://mapmyvisitors.com/map.js?cl=ffffff&amp;w=a&amp;t={% if page.permalink == '/' %}tt{% else %}n{% endif %}&amp;d=3D3-AIxdaGGcKvDZqQm2KXjUCSd6FYCDe1IG3uQvtyE"></script>
   </div>
